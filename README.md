@@ -1,8 +1,8 @@
 # Taller1-OpenMP
-#Compilar y crear ejecutable de saxpy
-#serial
+# Compilar y crear ejecutable de saxpy
+# serial
 gcc saxpy.c -o saxpy -fopenmp
-#paralelo
+# paralelo
 gcc saxpy_par.c -o saxpy_par
 ######################################
 # Para compilar y crear ejecutable del cálculo de log natural de 2
