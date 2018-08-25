@@ -3,7 +3,7 @@
 # serial
 gcc saxpy.c -o saxpy -fopenmp
 # paralelo
-gcc saxpy_par.c -o saxpy_par
+gcc saxpy_par.c -o saxpy_par -fopenmp
 # ------------------------------------------------------------------
 # Para compilar y crear ejecutable del cálculo de log natural de 2
 # serial:
